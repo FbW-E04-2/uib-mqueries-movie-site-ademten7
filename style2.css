@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   *{margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.con-air{
+    background-color: #d48787;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%236a1fe3' fill-opacity='0.4'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat:repeat;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.con-air h1{
+    font-size: 4em;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left:50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   border: 10px solid white;
+   padding: 10px;
+   border-radius: 50px;
+
+}
+.big-image img{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.coming-soon{
+    background-color: #d48787;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%236a1fe3' fill-opacity='0.4'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat:repeat;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left:100px
+
+
+}
+.coming-soon h2{
+    font-size: 3em;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.nav{
+    background-color: rgb(216, 209, 209);
+    text-align: center;
+    padding: 20px;
+
+}
+.nav ul li{
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 2em;
+    white-space: nowrap;
+
+}
+.nav ul li a{
+    text-decoration: none;
+
+}
+.first a{
+    color:red;
+}
+.nav ul li a:hover{
+    color:red;
+    text-decoration: underline;
+  
+}
+.first-article{
+    margin-top:4em;
+    
+}
+.first-article h2{
+    color: red;
+    text-align: center;
+    font-size: 4em;
+}
+.first-article p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: justify;
+}
+.commen-portre{
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+.portre{
+    display: block;
+    background: url(./design/portre.jpg);
+    width: 250px;
+    height:400px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top: 20px;
+    
+
+}
+.release{
+    background: rgb(216, 209, 209) ;
+    padding: 30px;
+    text-align: center;
+
+}
+.release h2{
+    font-size: 2em;
+    padding:10px;
+    
+}
+.release p{
+    font-size: 1.325em;
+    padding:10px;
+
+}
+.release #email{
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+
+}
+.copy{
+    background: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.325em;
+    color:white;
+}
+
+@media (max-width:480px){
+    .coming-soon h2{
+        font-size: 2em;
+
+    }
+    span{
+        font-size: 1em;
+    }
+    .coming-soon{
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        top:0;
+        left:0;
+    }
+    .nav ul li a{
+        text-align: center;
+    }
+    .nav ul li{
+        display: block;
+        
+    }
+    .first-article{
+        font-size: 10px;
+    }
+    
+}
+@media (max-width:768px){
+    .coming-soon{
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        top:0;
+        left:0;
+    }
+    .nav ul li{
+        font-size: 15px;
+        margin-left:5px;
+    }
+
+}
+@media (min-width:1024px){
+    .commen-portre{
+        flex-direction: row;
+    }
+    .soon{
+        font-size: 50px;
+    }
+
+}
+
+
