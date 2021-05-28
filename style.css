@@ -1,0 +1,183 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.background{
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    position: relative;
+}
+.bg1{
+    background-color: #e8b275;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%237244bb' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.h1{
+    position: absolute;
+    color:white;
+    margin: 0;
+    top:50%;
+    left:50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+    border:10px solid white;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+.image{
+    background: url(./design/nocolas.jpeg);
+    display:block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    
+}
+.bg2{
+    background-color: #e8b275;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%237244bb' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+
+}
+.h1-bottom{
+    border: none;
+
+}
+.nav  ul li{
+    display: inline-block;
+    margin-left:50px;
+  
+}
+.nav ul{
+    text-align: center;
+    position:sticky;
+    
+
+}
+.nav{
+    background-color: rgb(228, 225, 225);
+    padding: 10px;
+    width: 100%;
+    
+}
+.nav a{
+    text-decoration: none;
+
+}
+.nav a:hover{
+    display: block;
+    width: 100%;
+    color:red;
+    background-color: rgb(241, 236, 236);
+    text-decoration: underline;
+}
+.text h2{
+    text-align: center;
+    margin-top:50px;
+    color: red;
+
+}
+.text p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+.image1{
+    background: url(./design/portre.jpg);
+    display:block;
+    width: 200px;
+    height:250px;
+    object-fit: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin-left:100px;
+    margin-top: 50px;
+    
+
+}
+.two-image{
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.release{
+    background-color: rgb(209, 201, 201);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+   
+}
+.email{
+    background-color: rgb(238, 229, 229);
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.foot p{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding:10px;
+    margin: 0;
+
+}
+@media (max-width:767.88px){
+    .two-image{
+        flex-direction: column;
+
+    }
+    .image1{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+}
+@media (max-width:575.88px){
+    .nav  ul li{
+        display: block;
+        width: 100%;
+        background-color: rgb(228, 225, 225);
+        padding: 5px;
+        text-align: center;
+        margin-left: 0;
+}
+
+    .bg2{
+        width: 100%;
+        height: 100px;
+    }
+    .h1-bottom{
+        text-align: center;
+    }
+}
+@media(min-width:992px){
+    body{
+        position: relative;
+    }
+    .bg2{
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        top:180px;
+        left: 50px;
+       
+    }
+
+}
+
